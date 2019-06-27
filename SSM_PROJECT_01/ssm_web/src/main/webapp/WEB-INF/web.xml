@@ -21,9 +21,9 @@
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
   <!--配置一个对request域对象创建和销毁的监听器-->
-  <!--<listener>
+  <listener>
     <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
-  </listener>-->
+  </listener>
   <context-param>
     <param-name>contextConfigLocation</param-name>
     <param-value>classpath:applicationContext.xml,classpath:spring-security.xml</param-value>
@@ -49,6 +49,10 @@
     <filter-name>characterEncodingFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
+  <error-page>
+    <error-code>403</error-code>
+    <location>/permission_denied.jsp</location>
+  </error-page>
   <!--指定欢迎加载页面-->
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>

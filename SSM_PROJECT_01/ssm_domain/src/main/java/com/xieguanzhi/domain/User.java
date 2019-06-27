@@ -1,7 +1,5 @@
 package com.xieguanzhi.domain;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class User {
@@ -11,7 +9,6 @@ public class User {
     private String password;
     private String phoneNum;
     private int status;
-    private String statusStr;
     private List<Role> roles;
 
     public String getId() {
@@ -63,12 +60,9 @@ public class User {
     }
 
     public String getStatusStr() {
-        return statusStr;
+        return status==0?"未开启":status==1?"已开启":"用户状态异常";
     }
 
-    public void setStatusStr(String statusStr) {
-        this.statusStr = statusStr;
-    }
 
     public List<Role> getRoles() {
         return roles;
@@ -87,7 +81,6 @@ public class User {
                 ", password='" + password + '\'' +
                 ", phoneNum='" + phoneNum + '\'' +
                 ", status=" + status +
-                ", statusStr='" + statusStr + '\'' +
                 ", roles=" + roles +
                 '}';
     }

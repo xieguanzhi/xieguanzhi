@@ -1,5 +1,7 @@
 package com.xieguanzhi.domain;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -9,6 +11,7 @@ public class Product {
     private String productNum;
     private String productName;
     private String cityName;
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm")
     private Date departureTime;
     private double productPrice;
     private String productDesc;
@@ -58,15 +61,6 @@ public class Product {
     public String getDepartureTimeStr() {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return simpleDateFormat.format(departureTime);
-    }
-
-    public void setDepartureTimeStr(String departureTimeStr){
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm");
-        try {
-            this.departureTime = simpleDateFormat.parse(departureTimeStr);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
     }
 
     public double getProductPrice() {
