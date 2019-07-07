@@ -62,7 +62,7 @@ public class SysLogAop {
             e.printStackTrace();
         }
         visitTime = new Date();
-
+        ip = httpServletRequest.getRemoteAddr();
     }
 
     @After("execution(* com.xieguanzhi.web.*.*(..))")
@@ -75,7 +75,6 @@ public class SysLogAop {
         }catch (Exception e){
             e.printStackTrace();
         }
-        ip = httpServletRequest.getRemoteAddr();
         User user = (User)SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         userName = user.getUsername();
         SysLog sysLog = new SysLog();
