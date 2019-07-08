@@ -1,0 +1,8 @@
+com\xieguanzhi\domain\Role.class
+com\xieguanzhi\domain\Member.class
+com\xieguanzhi\domain\Order.class
+com\xieguanzhi\domain\User.class
+com\xieguanzhi\domain\Product.class
+com\xieguanzhi\domain\Permission.class
+com\xieguanzhi\domain\SysLog.class
+com\xieguanzhi\domain\Traveller.class

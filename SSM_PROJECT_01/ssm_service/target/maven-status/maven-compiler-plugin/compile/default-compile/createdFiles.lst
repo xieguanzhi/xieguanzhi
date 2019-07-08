@@ -1,0 +1,12 @@
+com\xieguanzhi\service\impl\SysLogServiceImpl.class
+com\xieguanzhi\service\OrderService.class
+com\xieguanzhi\service\SysLogService.class
+com\xieguanzhi\service\impl\RoleServiceImpl.class
+com\xieguanzhi\service\UserService.class
+com\xieguanzhi\service\impl\ProductServiceImpl.class
+com\xieguanzhi\service\impl\PermissionServiceImpl.class
+com\xieguanzhi\service\impl\UserServiceImpl.class
+com\xieguanzhi\service\impl\OrderServiceImpl.class
+com\xieguanzhi\service\RoleService.class
+com\xieguanzhi\service\PermissionService.class
+com\xieguanzhi\service\ProductService.class

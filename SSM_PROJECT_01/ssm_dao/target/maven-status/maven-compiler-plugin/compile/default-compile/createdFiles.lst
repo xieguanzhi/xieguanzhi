@@ -1,0 +1,7 @@
+com\xieguanzhi\dao\UserDao.class
+com\xieguanzhi\dao\MemberDao.class
+com\xieguanzhi\dao\OrderDao.class
+com\xieguanzhi\dao\ProductDao.class
+com\xieguanzhi\dao\SysLogDao.class
+com\xieguanzhi\dao\PermissionDao.class
+com\xieguanzhi\dao\RoleDao.class

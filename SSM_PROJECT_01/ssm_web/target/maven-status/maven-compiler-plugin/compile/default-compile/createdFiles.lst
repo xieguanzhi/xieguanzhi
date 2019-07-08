@@ -1,0 +1,7 @@
+com\xieguanzhi\web\RoleWeb.class
+com\xieguanzhi\web\SysLogAop.class
+com\xieguanzhi\web\UserWeb.class
+com\xieguanzhi\web\ProductWeb.class
+com\xieguanzhi\web\PermissionWeb.class
+com\xieguanzhi\web\OrderWeb.class
+com\xieguanzhi\web\SysLogWeb.class

@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [02/Jul/2019:16:38:23 +0800] "GET /ssm_web HTTP/1.1" 302 - http-bio-8888-exec-1 0
+0:0:0:0:0:0:0:1 - - [02/Jul/2019:16:38:23 +0800] "GET /ssm_web/ HTTP/1.1" 302 - http-bio-8888-exec-3 153
+0:0:0:0:0:0:0:1 - - [02/Jul/2019:16:38:24 +0800] "GET /ssm_web/login.jsp HTTP/1.1" 200 2576 http-bio-8888-exec-4 984
+0:0:0:0:0:0:0:1 - - [02/Jul/2019:16:38:24 +0800] "GET /ssm_web/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000 http-bio-8888-exec-2 6
+0:0:0:0:0:0:0:1 - - [02/Jul/2019:16:38:24 +0800] "GET /ssm_web/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121237 http-bio-8888-exec-5 7
+0:0:0:0:0:0:0:1 - - [02/Jul/2019:16:38:24 +0800] "GET /ssm_web/plugins/adminLTE/css/AdminLTE.css HTTP/1.1" 200 110374 http-bio-8888-exec-7 13
+0:0:0:0:0:0:0:1 - - [02/Jul/2019:16:38:24 +0800] "GET /ssm_web/plugins/ionicons/css/ionicons.min.css HTTP/1.1" 200 51284 http-bio-8888-exec-6 16
+0:0:0:0:0:0:0:1 - - [02/Jul/2019:16:38:24 +0800] "GET /ssm_web/plugins/iCheck/square/blue.css HTTP/1.1" 200 1611 http-bio-8888-exec-10 10
+0:0:0:0:0:0:0:1 - - [02/Jul/2019:16:38:24 +0800] "GET /ssm_web/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045 http-bio-8888-exec-8 16
+0:0:0:0:0:0:0:1 - - [02/Jul/2019:16:38:24 +0800] "GET /ssm_web/plugins/iCheck/icheck.min.js HTTP/1.1" 200 4516 http-bio-8888-exec-7 23
+0:0:0:0:0:0:0:1 - - [02/Jul/2019:16:38:24 +0800] "GET /ssm_web/plugins/jQuery/jquery-2.2.3.min.js HTTP/1.1" 200 85659 http-bio-8888-exec-9 26
+0:0:0:0:0:0:0:1 - - [02/Jul/2019:16:38:24 +0800] "GET /ssm_web/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot? HTTP/1.1" 200 20127 http-bio-8888-exec-9 4
+0:0:0:0:0:0:0:1 - - [02/Jul/2019:16:38:24 +0800] "GET /ssm_web/plugins/iCheck/square/blue.png HTTP/1.1" 200 2185 http-bio-8888-exec-9 5
